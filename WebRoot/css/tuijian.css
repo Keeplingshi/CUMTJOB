@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-12-07 16:34:56
+ * @version $Id$
+ */
+.center{height: 700px;width:1200px;margin:0px auto;background: white;position: relative;}
+.tab-div{width: 1000px;position: relative;top:30px;margin: 0px auto;}
+.tab-div h3{height: 30px;line-height: 30px;text-align: center;margin-bottom:15px; }
+ .tab{width:1000px;text-align: center;border-collapse: collapse;}
+ .tab th{width:198px;height: 20px;}
+ .tab td{width:198px;height: 20px;}
+ .sin{background: #DAEEF3;}
+ .dou{background: #B7DEE8;}
+ .sin th{background: #4BACC6;}
+ .dou th{background: #4BACC6;}
+ .tab a{text-decoration: none;color:black;}
+ .tab a:hover{color:red;}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.container{width: 1200px;background: white;margin: 0 auto;}
+.inner{width: 1000px;margin: 0px auto;padding-top:30px;padding-bottom:30px;}
+.inner h3{height: 30px;line-height: 30px;margin-bottom: 15px;text-align: center;}
+.tab{width:1000px;text-align: left;border-collapse: collapse;}
+.tab th,{background: #4F81BD;}
+.tab td{height: 22px;}
+.tab-head{background: gray;}
+.sin td{background: #87CEEB;border-top: 1px solid #2C2C2C;}
+
+.table2 { margin-top:30px; }
+.table2 th { text-align:center; }
+.dan { background: #87CEEB; }
+.suan { background:white; }
+.leftJustify { text-align:left;padding-left:10px; }

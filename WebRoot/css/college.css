@@ -1,0 +1,7 @@
+.centers { width:1200px;margin:0 auto;background:white; }
+.collegeLeft { width:300px;float:left; }
+.collegeRight { width:900px;float:left; }
+
+.collegeLeftUl li { width: 200px;height: 35px;color: white;font-weight: bold;margin-top: 10px;margin-left: 30px;line-height: 35px;background: #5481E6;text-align: center;border-radius: 10px 10px 10px 10px;cursor:pointer; }
+.collegeRight { margin:30px auto; }
+.collegeRight li { float:left;margin-right: 20px;margin-bottom:10px;cursor:pointer;width:150px;text-align:center;padding-left:6px;background:url(../image/icon4.gif) no-repeat left center; }

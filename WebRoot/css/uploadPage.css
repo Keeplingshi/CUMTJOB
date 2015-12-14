@@ -1,0 +1,14 @@
+.center{width: 1200px;margin:0 auto;background: white;padding-top:50px;}
+
+.centerLeft { width:400px;float:left; }
+.centerRight { width:800px;float:left; }
+
+.centerLeft img { width:220px;height:220px;margin-left:90px; }
+.basicMessage li,.teacherName { margin-top:14px; }
+.intent,.briefIntroduce,.personRecommend,.collegeRecommend,.schoolRecommend { margin-top:20px; }
+.intent p,.briefIntroduce p,.personRecommend p,.collegeRecommend p,.schoolRecommend p { margin-top:10px; }
+.submitMessage { margin-bottom:50px;margin-top:30px;padding:4px;font-size:18px; }
+
+.teacherNameInput { width:300px;height:30px; }
+.intentInput { height:30px;width:400px; }
+.briefIntroduceInput { width:400px;height:100px; }

@@ -1,0 +1,10 @@
+.center{width: 1200px;margin:0 auto;background: white;padding-top:50px;}
+
+.centerLeft { width:400px;float:left; }
+.centerRight { width:800px;float:left; }
+
+.centerLeft img { width:220px;height:220px;margin-left:90px; }
+.basicMessage li { margin-top:14px; }
+.intent,.briefIntroduce,.personRecommend,.collegeRecommend,.schoolRecommend { margin-top:20px; }
+.intent p,.briefIntroduce p,.personRecommend p,.collegeRecommend p,.schoolRecommend p { margin-top:10px; }
+.schoolRecommend { margin-bottom:50px; }

@@ -1,0 +1,115 @@
+json     sql      
+	
+姓名			name                name(t_stu_info)
+专业			profession          name(t_dm_major)通过major_dm(t_stu_info)=dm(t_dm_major)
+负责人电话		telNumber			tel(t_linkman)通过college_dm(t_stu_info)=college_dm(t_linkman)且business='1'
+负责人邮箱		eMail				email(t_linkman)通过college_dm(t_stu_info)=college_dm(t_linkman)且business='1'
+就业意向		intent				employment(t_stu_info)
+个人简介		briefIntroduce		intro(t_stu_info)
+个人推荐材料	personRecommend		url(t_other)通过id(t_stu_info)=snum(t_other)
+学院意见		collegeRecommend	recom_college(t_stu_info)
+学校意见		schoolRecommend		recom_school(t_stu_info)
+头像			userFace			userFace(t_stu_info)
+
+
+
+
+var json = [
+        {
+        "name":"肖高阳",
+        "profession":"计算机科学与技术",
+        "telNumber":"15651461019",
+        "eMail":"345745764@qq.com",
+        "intent":"我是用户填写的就业意向",
+        "briefIntroduce":"我是用户的个人简介",
+        "personRecommend":"我是用户的个人推荐，此处应为用户上传的个人推荐的文件的下载链接",
+        "collegeRecommend":"我是学院推荐的文字",
+        "schoolRecommend":"我是学校推荐的文字",
+        "userFace":"我是用户头像图片的路径"
+       },
+    ];
+
+
+
+college.html
+
+1.一打开页面就需要获得的数据
+var jsonCollegeName = 
+[
+	{"collegeName":"计算机科学与技术学院","profession":"信息安全,计算机科学与技术,网络工程,电子信息科学与技术"}
+];
+
+2.点击专业名称获得该专业所有人的就业状态
+var json = [
+	{"studentName":"张三","employmentStatus":"已就业"},
+	{"studentName":"李四","employmentStatus":"未就业"},
+	{"studentName":"王二","employmentStatus":"未就业"}
+];
+
+
+
+
+
+var = [
+		{"recommendTime":"2010.12.9","studentId":"08143177","studentName":"肖高阳","profession":"计算机科学与技术","detailed":"此处应该为个人自荐信息的链接"},
+		{"recommendTime":"2010.12.10","studentId":"08143178","studentName":"肖高阳2","profession":"网络工程","detailed":"此处应该为个人自荐信息的链接"},
+		{"recommendTime":"2010.12.11","studentId":"08143179","studentName":"肖高阳3","profession":"信息安全","detailed":"此处应该为个人自荐信息的链接"},
+		{"recommendTime":"2010.12.12","studentId":"08143180","studentName":"肖高阳4","profession":"信息科学与技术","detailed":"此处应该为个人自荐信息的链接"},
+		{"recommendTime":"2010.12.13","studentId":"08143181","studentName":"肖高阳5","profession":"计算机科学与技术","detailed":"此处应该为个人自荐信息的链接"},
+	];
+	
+var = [
+		{"recommendTime":"2010.12.9","studentId":"08143177","studentName":"肖高阳","profession":"计算机科学与技术","detailed":"此处应该为个人自荐信息的链接","teacherName":""},
+		{"recommendTime":"2010.12.10","studentId":"08143178","studentName":"肖高阳2","profession":"网络工程","detailed":"此处应该为个人自荐信息的链接","teacherName":""},
+	];
+
+
+//推荐时间，学号，姓名，专业，详细信息链接
+
+
+var json = [
+		{
+		"college":"计算机学院",
+		"allNum":"255",
+		"upSchool":"23",
+		"employment":"233",
+		"abroad":"23",
+		"unEmployment":"233",
+		"rateFont":"90%"
+	},
+		{"college":"矿业学院","allNum":"255","upSchool":"46","employment":"48","abroad":"82","unEmployment":"123","rateFont":"78%"},
+		{"college":"艺术学院","allNum":"255","upSchool":"15","employment":"189","abroad":"200","unEmployment":"333","rateFont":"60%"},
+		{"college":"挖煤学院","allNum":"255","upSchool":"23","employment":"17","abroad":"12","unEmployment":"2233","rateFont":"89%"},
+	];
+
+	
+	//学院，总人数，升学，以就业，出国，未就业，就业率
+	
+	
+
+var json = {
+
+	"all":[
+		{"name":"升学","value":"28.57142857142857"},
+		{"name":"求职中","value":"14.285714285714285"},
+		{"name":"出国","value":"28.57142857142857"},
+		{"name":"考公务员","value":"14.285714285714285"},
+		{"name":"就业","value":"14.285714285714285"}
+	],
+		
+	"undergraduate":[
+		{"name":"升学","value":"28.57142857142857"},
+		{"name":"求职中","value":"14.285714285714285"},
+		{"name":"出国","value":"14.285714285714285"},
+		{"name":"考公务员","value":"14.285714285714285"},
+		{"name":"就业","value":"0.0"}
+	],
+	
+	"postgraduate":[
+		{"name":"升学","value":"0.0"},
+		{"name":"求职中","value":"0.0"},
+		{"name":"出国","value":"14.285714285714285"},
+		{"name":"考公务员","value":"0.0"},
+		{"name":"就业","value":"14.285714285714285"}
+	]
+}

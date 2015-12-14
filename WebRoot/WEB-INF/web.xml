@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>CUMTJOB</display-name>
+  <servlet>
+    <servlet-name>chartServlet</servlet-name>
+    <servlet-class>com.servlet.ChartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>chartServlet</servlet-name>
+    <url-pattern>/chartServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>pieServlet</servlet-name>
+    <servlet-class>com.servlet.PieServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pieServlet</servlet-name>
+    <url-pattern>/pieServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>histCollegeServlet</servlet-name>
+    <servlet-class>com.servlet.HistCollegeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>histCollegeServlet</servlet-name>
+    <url-pattern>/histCollegeServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>histMajorServlet</servlet-name>
+    <servlet-class>com.servlet.HistMajorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>histMajorServlet</servlet-name>
+    <url-pattern>/histMajorServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>histMajorServlets</servlet-name>
+    <servlet-class>com.servlet.HistMajorServlets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>histMajorServlets</servlet-name>
+    <url-pattern>/histMajorServlets.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>recomMeServlet</servlet-name>
+    <servlet-class>com.servlet.RecomMeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>recomMeServlet</servlet-name>
+    <url-pattern>/recomMeServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>recOtherServlet</servlet-name>
+    <servlet-class>com.servlet.RecOtherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>recOtherServlet</servlet-name>
+    <url-pattern>/recOtherServlet.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>majorEmployServlet</servlet-name>
+    <servlet-class>com.servlet.MajorEmployServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>majorEmployServlet</servlet-name>
+    <url-pattern>/majorEmployServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>collegeDetailServlet</servlet-name>
+    <servlet-class>com.servlet.CollegeDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>collegeDetailServlet</servlet-name>
+    <url-pattern>/collegeDetailServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>majorDetailServlet</servlet-name>
+    <servlet-class>com.servlet.MajorDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>majorDetailServlet</servlet-name>
+    <url-pattern>/majorDetailServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>gotoCollegeServlet</servlet-name>
+    <servlet-class>com.servlet.GoToCollegeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>gotoCollegeServlet</servlet-name>
+    <url-pattern>/gotoCollegeServlet.do</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>gotoMajorServlet</servlet-name>
+    <servlet-class>com.servlet.GoToMajorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>gotoMajorServlet</servlet-name>
+    <url-pattern>/gotoMajorServlet.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>stuInfoServlet</servlet-name>
+    <servlet-class>com.servlet.StuInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>stuInfoServlet</servlet-name>
+    <url-pattern>/stuInfoServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>recommendServlet</servlet-name>
+    <servlet-class>com.servlet.RecommendServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>recommendServlet</servlet-name>
+    <url-pattern>/recommendServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>uploadImageServlet</servlet-name>
+    <servlet-class>com.servlet.UploadImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uploadImageServlet</servlet-name>
+    <url-pattern>/uploadImageServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>updateInfoServlet</servlet-name>
+    <servlet-class>com.servlet.UpdateInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateInfoServlet</servlet-name>
+    <url-pattern>/updateInfoServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>updateStuServlet</servlet-name>
+    <servlet-class>com.servlet.UpdateStuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateStuServlet</servlet-name>
+    <url-pattern>/updateStuServlet.do</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>Sign_In</servlet-name>
+    <servlet-class>com.servlet.Sign_In</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Sign_In</servlet-name>
+    <url-pattern>/Sign_In</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>indexr.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

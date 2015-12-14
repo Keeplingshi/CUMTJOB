@@ -1,0 +1,17 @@
+.centers{height: 630px;width:1200px;margin:0 auto;background:white;}
+.xueyuan{float:left;text-align: center;width: 200px;background: rgb(5,42,86);color: rgb(155,155,155);}
+.xueyuan li{list-style: none;width: 200px;height: 30px;line-height: 30px;position: relative;cursor: pointer;}
+.xueyuan li ul{position: absolute;top:0px;right: -200px;display: none;}
+.xueyuan li:hover ul{display: block;}
+.xueyuan li ul li{background:  rgb(5,42,86);}
+.xueyuan a{text-decoration: none;color: rgb(155,155,155);}
+.xueyuan .yingyong {position:absolute;top:-180px;}
+
+.infolist{float:left;height: 570px;margin:30px 30px;width:938px;}
+.info-head{height: 40px;margin:0px 20px;width:auto;text-align: center;line-height: 40px;margin-bottom: 30px;}
+.info table{width: 800px;margin: 0px auto;text-align: center;border-collapse: collapse;border:1;}
+.info table th{background: rgb(155,155,155);height: 25px;}
+.info tr{text-align: center;height: 25px;}
+.info a{text-decoration: none;cursor: pointer;}
+
+.makeCenter { width:900px;margin:0 auto; }
